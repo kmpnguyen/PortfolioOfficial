@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <!-- <meta name="viewport" content="viewport-fit=cover, initial-scale=1" /> -->
+    <meta
+  name="viewport"
+  content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon_web.png"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@0;1&display=swap"
+    />
+    <title>Khe Nguyen</title>
+  </head>
+
+  <body>
+    <!-- <div id="screen-rotate"> -->
+    <div id="container">
+      <!-- Info display section -->
+      <div id="mobile-info-section">
+        Khe Nguyen<br />Graphic Designer & UX/UI<br />Brooklyn Based<br />
+        <a href="mailto:khephannguyen@gmail.com">Email /</a>
+        <a target="_blank" href="https://www.behance.net/khenguyen2">Behance /</a>
+        <a target="_blank" href="https://www.linkedin.com/in/khe-nguyen-26ba671b1/">LinkedIn</a>
+      </div>
+
+      <div id="info-section" height="100%">
+        <!-- Personal Intro -->
+        <p id="introduction">
+          Khe Nguyen is a designer in Brooklyn/NY, focusing on branding, UX/UI
+          and creative coding.
+          <br />She studied at Parsons The New School and is interested in
+          exploring multimedia design to communicate visual ideas.<br /><br />
+          When she is not designing, you can find Khe with her camera exploring
+          the cultures and landmarks that the city have to offer.
+        </p>
+        <!-- Project and Contact -->
+        <div id="menu">
+          <div id="mobile-info-blur-background"></div>
+          <div id="project">
+            <span id="project-expand">Selected Project [+]</span>
+            <ul id="project-list" class="hidden">
+              <p style="margin-top:3px; margin-bottom:6px;">Digital Product Design</p>
+                <li id="menu-favicon" class="menu-hover" onclick="topFunction()">
+                1. Favi*cam<sup>(Creative Code)</sup>
+                </li>
+                <li id="menu-owl" class="menu-hover" onclick="topFunction()">
+                2. LocalOwl<sup>(UX/UI)</sup>
+                </li>
+                <li id="menu-helpscan" class="menu-hover" onclick="topFunction()">
+                3. Helpscan<sup>(UI)</sup>
+                </li>
+                <li id="menu-p5js" class="menu-hover" onclick="topFunction()">
+                4. Small Things in Silence<sup>(Creative Code)</sup>
+                </li>  
+                <li id="menu-comingsoon" class="menu-hover" onclick="topFunction()">
+                5. Medium Rare<sup>(Web Design / Coming Soon)</sup>
+                </li> 
+
+              <br><p style="margin-top:0px; margin-bottom:6px;">Graphic Design</p>
+                <li id="menu-choice" class="menu-hover" onclick="topFunction()">
+                1. The Daily Indecisiveness<sup>(Thesis)</sup>
+                </li>
+                <li id="menu-loveishard" class="menu-hover" onclick="topFunction()">
+                2. HIV: Love is Hard<sup>(Communication Campaign)</sup>
+                </li>
+                <li id="menu-xmass" class="menu-hover" onclick="topFunction()">
+                3. BAKES Xmas<sup>(Packaging)</sup>
+                </li>
+                <li id="menu-mooncake" class="menu-hover" onclick="topFunction()">
+                4. BAKES Mooncake<sup>(Packaging)</sup>
+                </li>
+                <li id="menu-fpdb" class="menu-hover" onclick="topFunction()">
+                5. FPDB Rebrand<sup>(Branding)</sup>
+                </li>
+                
+
+              
+              <!-- <li id="menu-blank" class="menu-hover" onclick="topFunction()">
+                Blank Carnival<sup>(8)</sup>
+              </li> -->
+            </ul>
+          </div>
+          <div id="contact">
+            <span id="contact-expand">Info & Contact [+]</span>
+            <div id="contact-list" class="hidden">
+              <a target="_blank" href="https://drive.google.com/file/d/1HFvVw7aNKhu2Xdt4kd8HAOJH-t0brnx1/view?usp=sharing">Resume</a>
+              <p style="margin: 0; padding: 0">
+                khephannguyen@gmail.com
+              </p>
+              <a target="_blank" href="https://www.behance.net/khenguyen2">Behance /</a>
+              <a target="_blank" href="https://www.linkedin.com/in/khe-nguyen-26ba671b1/">LinkedIn</a>
+            </div>
+          </div>
+          <div id="rectangle"></div>
+        </div>
+
+        <div id="info-blur-background"></div>
+      </div>
+
+      <!-- Work display section -->
+      <div id="work-section">
+        <!-- Play -->
+        <div id="play-section">
+          <!-- <div id="play-1">
+            <div class="play-gap"><br /><br /><br /><br /><br /></div>
+            
+            <div class="img-loveishard playImage1">
+              <img src="img/loveishard.jpg"
+              alt="HIV: Love is Hard"
+              width="100%"/>
+              <div class="cursor1" style="white-space: nowrap">
+                <span class="triangle-cursor"></span>HIV: Love is Hard
+                <sup>(Communication Campaign)</sup>
+              </div>
+            </div>
+
+            <div class="img-fanci playImage2">
+              <img src="img/fanci.jpg"
+              alt="Fanci Club"
+              width="100%"/>
+              <div class="cursor2" style="white-space: nowrap">
+                <span class="triangle-cursor"></span>Fancì Club
+                <sup>(Web Design)</sup>
+              </div>
+            </div>
+
+            <div class="img-helpscan playImage3">
+              <img src="img/helpscan.jpg" alt="Helpscan" width="100%" />
+              <div class="cursor3" style="white-space: nowrap">
+                <span class="triangle-cursor"></span>HelpScan
+                <sup>(UI)</sup>
+              </div>
+            </div>
+
+            <div class="img-owl playImage4">
+              <img src="img/owl.jpg" alt="LocalOwl" width="100%" />
+              <div class="cursor4" style="white-space: nowrap">
+                <span class="triangle-cursor"></span>LocalOwl
+                <sup>(UX/UI)</sup>
+              </div>
+            </div>
+
+            <div class="img-xmass playImage5">
+              <img src="img/xmas.jpg" alt="Bakes Xmas" width="100%" />
+              <div class="cursor5" style="white-space: nowrap">
+                <span class="triangle-cursor"></span>Bakes Xmas
+                <sup>(Packaging & Illustration)</sup>
+              </div>
+            </div>
+
+            <div class="img-mooncake playImage6">
+              <img src="img/mooncake.png" alt="Mooncake" width="100%" />
+              <div class="cursor6" style="white-space: nowrap">
+                <span class="triangle-cursor"></span>Bakes MoonCake
+                <sup>(Packaging & Set Design)</sup>
+              </div>
+            </div>
+
+            <div class="img-fpdb playImage7">
+              <img src="img/fpdb.jpg" alt="FPDB" width="100%" />
+              <div class="cursor7" style="white-space: nowrap">
+                <span class="triangle-cursor"></span>FPDB Rebrand
+                <sup>(Branding)</sup>
+              </div>
+            </div>
+
+            <div class="img-choice playImage8">
+              <img
+                src="img/choice.jpg"
+                alt="The Daily Indecisiveness"
+                width="100%"
+              />
+              <div class="cursor8" style="white-space: nowrap">
+                <span class="triangle-cursor"></span>The Daily Indecisiveness
+                <sup>(Interactive Web)</sup>
+              </div>
+            </div>
+
+            <div class="img-p5js playImage9">
+              <img
+                src="img/p5js.jpg"
+                alt="Small Things in Silence"
+                width="100%"
+              />
+              <div class="cursor9" style="white-space: nowrap">
+                <span class="triangle-cursor"></span>Small Things in Silence
+                <sup>(Creative Coding)</sup>
+              </div>
+            </div>
+
+            <div class="img-favicon playImage10">
+              <img
+              src="img/favicon.png" alt="Favicam" width="100%"
+              />
+              <div class="cursor10" style="white-space: nowrap">
+                <span class="triangle-cursor"></span>Favicam
+                <sup>(Creative Coding)</sup>
+              </div>
+            </div>
+
+            <div class="play-gap"><br /><br /><br /><br /><br /><br /></div>
+          </div> -->
+          <div class="grid-container">
+
+            <div class="menu-container img-favicon playImage1">
+              <img
+              class="work-img grid-item"
+              alt="Favicam"
+              src="https://live.staticflickr.com/65535/52790354135_a2e3336773_h.jpg"
+              />
+              <img class="overlay" src="img/favicon.gif"/>
+              <div class="cursor1" style="white-space: nowrap">
+                <span class="triangle-cursor"></span><span class="white-hl">Favicam<sup>(Creative Coding)</sup></span>
+              </div>
+            </div>
+
+            <div class="menu-container img-owl playImage2">
+              <img
+              class="work-img grid-item"
+              alt="Local Owl"
+              src="https://live.staticflickr.com/65535/52790192289_774f209bd1_h.jpg"
+              />
+              <img class="overlay" src="https://live.staticflickr.com/65535/52790033772_14e4887b4e_h.jpg"/>
+              <div class="cursor2" style="white-space: nowrap">
+                <span class="triangle-cursor"></span>
+                <span class="white-hl">LocalOwl<sup>(UX/UI)</sup></span>
+              </div>
+            </div>
+
+            <div class="menu-container img-helpscan playImage3">
+              <img
+              class="work-img grid-item"
+              alt="Helpscan"
+              src="https://live.staticflickr.com/65535/52789401802_422aec21b2_h.jpg"
+              />
+              <img class="overlay" src="https://live.staticflickr.com/65535/52791042303_cdc2ed195f_h.jpg"/>
+              <div class="cursor3" style="white-space: nowrap">
+                <span class="triangle-cursor"></span>
+                <span class="white-hl">HelpScan<sup>(UI)</sup></span>
+              </div>
+            </div>
+
+            <div class="menu-container img-p5js playImage4">
+              <img
+              class="work-img grid-item p5js"
+              alt="P5.JS"
+              src="https://live.staticflickr.com/65535/52789401797_466e6d7395_h.jpg"
+              />
+              <img class="overlay" src="https://live.staticflickr.com/65535/52790015922_657a36a970_h.jpg"/>
+              <div class="cursor4" style="white-space: nowrap">
+                <span class="triangle-cursor"></span>
+                <span class="white-hl">Small Things in Silence<sup>(Creative Coding)</sup></span>
+              </div>
+            </div>
+
+            <div class="menu-container img-choice playImage5">
+              <img
+              class="work-img grid-item"
+              alt="Choice"
+              src="https://live.staticflickr.com/65535/52790408868_ab60464a6b_h.jpg"
+              />
+              <img class="overlay" src="img/choice4.gif"/>
+              <div class="cursor5" style="white-space: nowrap">
+                <span class="triangle-cursor"></span><span class="white-hl">The Daily Indecisiveness<sup>(Interactive Web)</sup></span>
+              </div>
+            </div>
+
+            <div class="menu-container img-loveishard playImage6">
+              <img
+              class="work-img grid-item"
+              alt="HIV: Love is Hard"
+              src="https://live.staticflickr.com/65535/52789958781_23d6d95ac4_h.jpg"
+              />
+              <img class="overlay" src="https://live.staticflickr.com/65535/52790964770_8ebc133b28_h.jpg"/>
+              <div class="cursor6" style="white-space: nowrap">
+                <span class="triangle-cursor"></span><span class="white-hl">HIV: Love is Hard<sup>(Communication Campaign)</sup></span>
+              </div>
+            </div>
+
+            <div class="menu-container img-xmass playImage7">
+              <img
+              class="work-img grid-item"
+              alt="Xmas"
+              src="https://live.staticflickr.com/65535/52790408878_761e6b6cfa_h.jpg"
+              />
+              <img class="overlay" src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/af7d9e116002983.6062ed790dbe2.gif"/>
+              <div class="cursor7" style="white-space: nowrap">
+                <span class="triangle-cursor"></span><span class="white-hl">Bakes Xmas<sup>(Packaging & Illustration)</sup></span>
+              </div>
+            </div>
+
+            <div class="menu-container img-mooncake playImage8">
+              <img
+              class="work-img grid-item"
+              alt="Mooncake"
+              src="https://live.staticflickr.com/65535/52789401787_4a782fee03_h.jpg"
+              />
+              <img class="overlay" src="https://live.staticflickr.com/65535/52790843461_db456e3d05_h.jpg"/>
+              <div class="cursor8" style="white-space: nowrap">
+                <span class="triangle-cursor"></span><span class="white-hl">Bakes MoonCake<sup>(Packaging & Set Design)</sup></span>
+              </div>
+            </div>
+
+            <div class="menu-container img-fpdb playImage9">
+              <img
+              class="work-img grid-item"
+              alt="FPDB"
+              src="https://live.staticflickr.com/65535/52789401777_8f9aac17da_h.jpg"
+              />
+              <img class="overlay" src="https://thumbs.gfycat.com/WellwornSlimKangaroo-size_restricted.gif"/>
+              <div class="cursor9" style="white-space: nowrap">
+                <span class="triangle-cursor"></span><span class="white-hl">FPDB Rebrand<sup>(Branding)</sup></span>
+              </div>
+            </div>
+            
+            <div class="menu-container img-comingsoon playImage10">
+              <img
+              class="work-img grid-item"
+              alt="Medium Rare"
+              src="https://live.staticflickr.com/65535/52945216504_de05913abf_h.jpg"
+              />
+              <img class="overlay" src="https://live.staticflickr.com/65535/52944482082_6be3f873d6_h.jpg"/>
+              <div class="cursor10" style="white-space: nowrap">
+                <span class="triangle-cursor"></span><span class="white-hl">Medium Rare<sup>(Web/Coming Soon)</sup></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Work -->
+        <div id="work">
+          <!-- Fanci -->
+          <!-- <div id="fanci-section" class="hidden">
+            <img
+              class="work-img"
+              src="img/fanci1.gif"
+            />
+            <div class="work-text">
+              The objective of our fashion e-commerce website project is to create a simple and seamless online shopping experience for Fancì Club, a Vietnamese brand label that ripe with sex and the audacity emboldens for modern woman with its collection of sultry garments. The web-redesign focuses on providing an easy-to-navigate user-flow that highlights the brand's playfully seductive edge and modernized Y2K designs.
+            </div>
+            <img
+              class="work-img"
+              src="https://live.staticflickr.com/65535/52769260961_13cd39d56b_k.jpg"
+            />
+            <img
+              class="work-img"
+              src="https://live.staticflickr.com/65535/52769260916_a6c262a30c_k.jpg"
+            />
+            <div class="work-text">
+              The goal of the redesign is to establish a strong online presence for the brand and drive sales through a captivating and easy-to-navigate website. The redesign of Fancì Club website was a success as user entry increased 450% while sale increased 300%, along side with the success of new collection : The Wrinkles.
+            </div>
+            <img
+              class="work-img-fanci"
+              src="img/fanci2.gif"
+            />
+            <img
+              class="work-img"
+              src="img/fanci3.gif"
+            />
+            <div class="work-text">
+            &lt;&lt;&lt;
+            <a style="text-decoration: underline"
+            target="_blank"
+            href="https://fanciclub.com/">Click here to explore Fancì Club Website</a>&gt;&gt;&gt;
+            <br><br>
+              Credit / Developer: Hai Phan/ Client: Fancì Club 
+            </div>
+          </div> -->
+
+          <!-- Favicom -->
+          <div id="favicon-section" class="hidden">
+            <img
+              class="work-img"
+              src="img/favicon.gif"
+            />
+            <div class="work-text">
+              If you think about it, favicon - a website tab icon - is the smallest canvas on your computer screen. As a blank canvas, the room for creativity is endless. Yet, majority of websites use favicon to hold static logos. Favicam is a personal project that pushes the boundary of the favicon and what can be placed on the computer's smallest canvas.
+            <br /><br />&lt;&lt;&lt;
+            <a style="text-decoration: underline"
+            target="_blank"
+            href="https://favicam.netlify.app/">Click here to explore Favicam</a>&gt;&gt;&gt;
+            <br><br>
+            Credit: / Superviser: Eric Li / Project: CD Studio: JavaScript
+            </p>
+            </div>
+          </div>
+
+          <!-- Medium Rare -->
+          <div id="comingsoon-section" class="hidden">
+            <img
+              class="work-img"
+              src="https://live.staticflickr.com/65535/52945216504_de05913abf_h.jpg"
+            />
+            <div class="work-text">
+              Coming Soon: A new generation print and digital art books online archieve and exchange chanel
+            </div>
+          </div>
+          
+          <!-- LocalOwl -->
+          <div id="owl-section" class="hidden">
+            <img
+              class="work-img"
+              src="img/owl.jpg"
+            />
+            <div class="work-text-owl">
+              <u style="font-size:19px; ">PROBLEM STATEMENT</u><br><br>
+              The tourism industry has seen a rise in demand for authentic cultural and unique experiences that mainstream tour operators may not offer. A tour booking app is needed to connect young adults with small local tour operators that offer such experiences.<br><br> 
+              <u style="font-size:19px; ">PROJECT GOAL</u><br><br>
+              The project objective is  to conduct market research and develop a tour booking application that caters to the needs of young adults seeking genuine cultural experiences. Simultaneously, the app should also aid small local operators with little online presence in promoting their services effectively.<br><br>
+            </div>
+            <img
+              class="work-img-owl-60"
+              src="https://live.staticflickr.com/65535/52792388022_a9d3b0271e_h.jpg"
+            />
+            <div class="work-text-owl">
+              <u style="font-size:19px; "> PART 1: RESEARCH<br><br>A. Competitive benchmarking</u><br>
+              For this benchmark, I conducted thorough research on the market, the competitive landscape, and the user trends. Our direct competitors are top companies that offer full travel booking service from flight, hotel, cars and experience. 
+            </div>
+            <img
+              class="work-img-owl"
+              src="https://live.staticflickr.com/65535/52784986896_f749719ea5_k.jpg"
+            />
+            <img
+              class="work-img-owl"
+              src="https://live.staticflickr.com/65535/52785778524_32c5e42cbc_k.jpg"
+            />
+            <div class="work-text-owl">
+              <u>The three main type for hosting local experience platforms:</u> (1) well developed mega-data platform like Booking.com or Airbnb that offer mainstream experience (2) medium size local operator with budget for a well informed platform but little online exposure (3) small size niche local operator with little budget, little online exposure and a functional but poorly developed platform
+            </div>
+            <div class="work-text-owl">
+              <u>Learning from competitive analysis:</u> It is evident that few mega booking services offer unique cultural tours, with the exception of Airbnb Experience. Mega sites have the advantage of flexible payment methods, live customer support, competitive pricing, credibility, a well-developed platform, and a strong online presence, compared to local sites. Meanwhile, language remains a significant barrier for accessing information and discovering services.<br><br>
+              <u style="font-size:19px; ">B. User Survey</u><br>
+              The survey confirmed the hypothesis that young adults are looking for unique experiences that are not offered by mainstream tour operators. They want to get off the beaten path to experience different cultures offered by the local. Yet they oftern face difficulty in transparency booking with local operators.<br>
+              <ul>
+                <li> 19/25 consult many sources before making a decision; 15/25 use meta-platform search and 8/25 book directly through local site.</li>
+                <li> 18/25 complain about the similarity and tourist targeting intineraries from mega-platform.</li>
+                <li> 75% Those who booked directly from local operator site report difficulties while booking.</li>
+                <li> 21/25 are concerned for the customer service, credibility the purchasing and refund conditions when booking through small operators.</li>
+                <li> 16/25 lean on review and pricing for final decision making; the rest lean on itinerary and photos.</li>
+              </ul>
+              <u style="font-size:19px; ">C. AFFINITY MAP,PERSONA AND JOURNEY MAP</u><br><br>
+              I brought structure to the information we gathered to the content of user survey, interview and research through affinity map, persona and user journey. Some clear categories on pain points, goals, and preferences emerged as I progressed further.<br><br>
+            </div>
+            <img
+              class="work-img-owl"
+              src="https://live.staticflickr.com/65535/52785443868_b15668c63d_k.jpg"
+            />
+            <img
+              class="work-img-owl"
+              src="https://live.staticflickr.com/65535/52871099765_0a951bb43a_k.jpg"
+            />
+            <div class="work-text-owl">
+              <u>RESEARCH LEARNING OUTCOME:</u><br>
+              From the market and user research, I identified the following feature prioritization:
+              <ul> 
+                <li>Personalized suggestion</li>
+                <li>Authentic photos and review</li>
+                <li>Operator profile and credibility validation</li>
+                <li>Options comparison system</li>
+                <li>Tourist-Operator direct communication system</li>
+              </ul>
+            </div>
+
+            <div class="work-text-owl">
+              <u>PART 2: STRATERGY AND DESIGN</u><br><br>
+              Creating a flow chart is the first step of the design process to helped me get a high level overview of the process.
+            </div>
+            <img
+              class="work-img-owl"
+              src="https://live.staticflickr.com/65535/52872023487_b1b9f9d14e_o.png"
+            />
+            <div class="work-text-owl"> 
+              <u style="font-size:19px; ">WIREFRAMES:</u>
+              Next, I tried to cut unnecessary steps and simplify booking flow. I explored different layouts and prepared detailed wireframes to explain the user flow. 
+            </div>
+            <img
+              class="work-img-owl"
+              src="https://live.staticflickr.com/65535/52873042578_be4b9f485c_o.png"
+            />
+            <img
+              class="work-img-owl"
+              src="https://live.staticflickr.com/65535/52872983385_c5294030fc_o.png"
+            />
+            <img
+              class="work-img-owl"
+              src="https://live.staticflickr.com/65535/52872775304_7192a671b8_o.png"
+            />
+            <div class="work-text-owl">
+              <u>PART 3: PROTOTYPE AND TESTING (COMING SOON)</u><br><br>
+            </div>
+          </div>
+
+          <!-- FPDB -->
+          <div id="fpdb-section" class="hidden">
+            <img
+              class="work-img"
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/c197f9138589047.6220cc0b531c5.png"
+            />
+            <div class="work-text">
+              FPDB is a leading food photography studio from Ho Chi Minh city. The studio has a long passionate history for food and its spiritual influences to Vietnamese culture. FPDB doesn’t just capture your food, they bring out the best of your food and tell brand’s story through photography. With their mission of change the visual of the F&B industry in Vietnam about creativity and high standards, Tuan Ha and I proposed a new culinary approach to their branding, changed the name from FPWDB to FPDB and focusing on Food First, Everything Else Second.
+            </div>
+            <img
+              class="work-img"
+              src="https://thumbs.gfycat.com/DefiantJadedGharial-size_restricted.gif"
+            />
+            <div class="work-text">
+              With the Food First approach as the starting point for every project, the stylized “F” represents a core facet of the brand’s identity. Its freeform contrasts with geometric letters, conveying dual expressions of creativity and professionalism. The intentionally staggered composition breaks up visually similar letters and improves comprehension: in other words, FPDB ≠ FBDP.
+            </div>
+            <img
+              class="work-img"
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/e48637138589047.6220482059015.png"
+            />
+            <img
+              class="work-img"
+              src="https://thumbs.gfycat.com/WellwornSlimKangaroo-size_restricted.gif"
+            />
+            <div class="work-text">
+              Lending a touch of whimsy to the font system, a series of food emojis are embedded into the typeface improving the usability of the brand&#39;s visual components across platforms and communication channels.
+            </div>
+            <img
+              class="work-img"
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/ccc1bc138589047.6220ab67afe8b.png"
+            />
+            <img
+              class="work-img"
+              src="	https://mir-s3-cdn-cf.behance.net/project_modules/fs/6ded31138589047.6220b21da5b2d.png"
+            />
+            <img
+              class="work-img"
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/7fd13c138589047.62209447124d2.png"
+            />
+            <div class="work-text">
+              Credit / Co-deisnger: Tuan Ha / Superviser: Tuan Le / Client: FPDB
+            </div>
+            <div class="mobile-gap"><br /><br /><br /><br /></div>
+          </div>
+
+          <!-- The Daily Indecisiveness -->
+          <div id="choice-section" class="hidden">
+            <img class="work-img" src="img/choice0.gif" />
+            <div class="work-text">
+              Questions like "What&#39;s for dinner?" or "Which shampoo should I pick?" are supposedly simple, except they are universally proven to be unexpectedly difficult. In today's world of unlimited options promoted by overconsumption, the average adult is now presented with 35,000 conscious decisions on a daily basis, compounding the psychological weight of choice paralysis: if the choice is not perfect, it is easy to imagine that you could have made a different selection to produce a better result. This puts pressure on even the most insignificant daily decisions.
+            </div>
+            <img class="work-img" src="img/choice5.png" />
+            <div class="work-text">
+              Understanding the perception of opportunity costs in a world of unlimited possibilities is important for understanding the challenges of modern decision-making. For my thesis, I examine the ramifications of choice paralysis through The Daily Indecisiveness, a series of four informative and interactive explorations into the behavioral science behind this conundrum by visualizing common patterns that influence difficult choices.
+            </div>
+            <img class="work-img" src="img/choice1.jpg" />
+            <div class="work-text">
+              Would more options help or hinder prospects in making a decision? <br><br> Turn out the range of choices that we have available these days no longer liberates but debilitates us. More choice means more work, more work means more exhaustion. What is likely going to happen is that you will either be overwhelmed and unable to process decisions, or come to the conclusion that everything looks so good and you do not know what to pick. In both cases, you cannot come to a decision. <br><br> Study 1, Choice Overload, inspects the volume of available options and whether additional options improve or hinder the decision-making process. The interface mimics a bagel shop menu, tasking the user with making their choices as fast as possible as a new option is presented every seven seconds.
+            </div>
+            <img class="work-img" src="img/choice2.gif" />
+            <div class="work-text">
+              How's your decision making style contributing to indecisiveness? <br><br>
+With around 35,000 remotely conscious choices that an average adult needs to make day-to-day, there is a psychological heaviness to even the simplest decisions. From this perspective, choice is fundamental to our happiness and many people want to make the best possible decision. But to pick out the best options require a long process of collecting information, comparing with other alternatives and being anxious over possibilities of the road not taken, which result in delay over decision making . 
+<br><br>Study 2, Satisfiers vs Maximizers, presents an interactive survey consisting of 9 questions with a dizzying array of options for answers, the interface visualizes the complexity of mundane decisions like picking a shampoo among 3,000+ selections available on Amazon. A score is given to each answer choice.The higher your score, the more of a maximizer you are.
+            </div>
+            <img class="work-img" src="img/choice3.gif" />
+            <div class="work-text">
+              Would knowing the consequence of your choice make the decision easier? <br><br> Action might produce regret. Doing nothing feels safer. Sometime people delay making the decision and keeping a situation unresolved. But this indecisiveness is not caused by the complexity of a decision. More often, real tough decisions are those which are difficult to compare. When all the information are available, it's our instinct to compare for the best. By picking one options we are reducing the possibilities for the equally good alternatives. In contrast, choosing to not-choosing gives the illusion of avoiding a bad outcome, while ignoring the consequences of inaction along the way. <br><br>Study 3 : Hard Choice — interface requires user to determine the path of the story by choosing each word. Each change to the word will affect the rest of the story. And even if you get one tough choice correct, no everything will be perfect.
+            </div>
+            <img class="work-img" src="img/choice4.gif" />
+            <div class="work-text">
+              How anticipate regret affect making decision? <br><br>People make choices based on future regret. When making decisions, they're motivated not only by the opportunity for gain, but also by the fear of loss, or regret. Fear of regret can play a large role in discouraging or motivating someone to do something. If people think they might make a wrong choice, they will take counterfact thought into consideration when making decisions. <br><br> Study 4 : Regret of Inaction — map a tree of regrets compared side by side, the diagram reveals that in the short term, people regret their actions more than inactions — while over time, the regret of inaction becomes more impactful. This study is developed to explore the role of regret in decision making and demonstrate how your behavior changes when you start anticipating regret. 
+            </div>
+            <div class="work-text">
+              Credit / Superviser: Matt Barnes and Juliette Cezzar / BFA CD
+              Thesis
+            </div>
+            <div class="mobile-gap"><br /><br /><br /><br /></div>
+          </div>
+
+          <!-- Bakes Xmas -->
+          <div id="xmass-section" class="hidden">
+            <img
+              class="work-img"
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/6de88e116002983.605da74a69e32.jpg"
+            />
+            <div class="work-text">
+              Merry Christmas! This is the first Christmas after a long year of
+              pandemic is a special event to celebrate. We brought a playful and
+              nostalgia holiday through the concept of Santa Workshop to Bakes
+              Saigon and reimagined festive holiday patterns as packaging.
+              Elements for packaging feature Santa’s factories where Bakes
+              hardworking elf prepare delicious pastries for the special day.
+            </div>
+            <img
+              class="work-img"
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/efcd6f116002983.605da74a6aa31.jpg"
+            />
+            <div class="work-text">Ornaments don't just belong on trees.</div>
+            <img
+              class="work-img"
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/c61490116002983.605da74a6a454.jpg"
+            />
+            <div class="work-text">Candy cane, as a box for cookies.</div>
+            <img
+              class="work-img"
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/049c32116002983.605da74a6b78f.jpg"
+            />
+            <div class="work-text">
+              Boardgame designers are the most underrated designers of all time.
+            </div>
+            <img
+              class="work-img"
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/5ee9c7116002983.605da74a6b0a2.jpg"
+            />
+            <div class="work-text">Twinkle twinkle little box of pastries.</div>
+            <img
+              class="work-img"
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/bfe584116002983.6061509f90140.gif"
+            />
+            <div class="work-text">Tea boxes in the shape of pine trees.</div>
+            <img
+              class="work-img"
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/af7d9e116002983.6062ed790dbe2.gif"
+            />
+            <img
+              class="work-img"
+              src="https://live.staticflickr.com/65535/52071079150_a72bd29bed_h.jpg"
+            />
+            <div class="work-text">
+              Credit / Co-deisnger: Tran N Nguyen, Andree Nguyen / Superviser:
+              Tuan Le / Client: Bakes Saigon
+            </div>
+            <div class="mobile-gap"><br /><br /><br /><br /></div>
+          </div>
+
+          <!-- Small Things in Silence -->
+          <div id="p5js-section" class="hidden">
+            <div class="grid-container">
+              <img
+                class="work-img"
+                class="grid-item"
+                src="https://live.staticflickr.com/65535/52071108715_4338778816_b.jpg"
+              />
+              <img
+                class="work-img"
+                class="grid-item"
+                src="https://live.staticflickr.com/65535/52071109325_1c15160e75_b.jpg"
+              />
+            </div>
+            <div class="work-text">
+              The project is a study of sine/cosine waves and noise in p5.js, with the final form being a collection of 100 generative framed butterflies. The forming process is like a butterfly going through different peculiar phases before transforming into a beautiful thing. The live script is available upon request.
+            </div>
+            <img class="work-img" src="img/p5js_2.gif" />
+            <img
+              class="work-img"
+              src="https://live.staticflickr.com/65535/52378984988_5697e3604e_o.png"
+            />
+            <div class="grid-container">
+              <img
+                class="work-img"
+                class="grid-item"
+                src="https://live.staticflickr.com/65535/52379067849_e4a64453c9_o.png"
+              />
+              <img
+                class="work-img"
+                class="grid-item"
+                src="https://live.staticflickr.com/65535/52379170915_80b8eee676_o.png"
+              />
+              <img
+                class="work-img"
+                class="grid-item"
+                src="https://live.staticflickr.com/65535/52379059354_20504a5092_o.png"
+              />
+              <img
+                class="work-img"
+                class="grid-item"
+                src="https://live.staticflickr.com/65535/52385579512_64bd7c3429_o.png"
+              />
+            </div>
+            <img
+              class="work-img"
+              src="https://live.staticflickr.com/65535/52379063949_8f74100fdd_o.png"
+            />
+            <div class="work-text">
+              Credit: / Superviser: John Provencher / Project: A-Generative-Web
+            </div>
+            <div class="mobile-gap"><br /><br /><br /><br /></div>
+          </div>
+
+          <!-- Bakes Mooncake -->
+          <div id="mooncake-section" class="hidden">
+            <img
+              class="work-img"
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/c2f9ba133335087.61bc11a38af98.jpeg"
+            />
+            <div class="work-text">
+              Bakes Mooncake 2021 is an excuse to celebrate in the middle of Covid lockdown. With the theme of lucid dream for visual identities to packaging, this lunar season emphasizes on the ability to have fun in your mind when your body is stuck at home.
+            </div>
+            <div class="grid-container">
+              <img
+                class="work-img"
+                class="grid-item"
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b73540133335087.61bb1924d3ca6.jpg"
+              />
+              <img
+                class="work-img"
+                class="grid-item"
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/36eb44133335087.61bc981f789a2.jpg"
+              />
+              <img
+                class="work-img"
+                class="grid-item"
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/cf221b133335087.61bb19253d1b8.jpg"
+              />
+              <img
+                class="work-img"
+                class="grid-item"
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/e46982133335087.61bc98205750f.jpg"
+              />
+            </div>
+            <div class="work-text">
+              Using elements of party but bring it to the home. The champaigne,
+              the truffle and saffron,the glamorous light. Playful, colorful and premium. The vivid illustration imagines how mooncake ingredients 
+              appear if they are balloons. 
+            </div>
+            <img
+              class="work-img"
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/b62e58133335087.61bc48eba1676.gif"
+              width="200%"
+            />
+            <div class="work-text">
+              The design balances snobbery with a vivid and seasonal illustration system.
+            </div>
+            <img
+              class="work-img"
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/e6f283133335087.61bc4169899bd.png"
+            />
+            <div class="work-text">
+              Mooncake lantern patterns are reinterpreted it to brochures,
+              recipe books and bags. For fun.
+            </div>
+            <div class="grid-container">
+              <img
+                class="work-img"
+                class="grid-item"
+                src="https://live.staticflickr.com/65535/52387434140_a8ec96075e_o.jpg"
+              />
+              <img
+                class="work-img"
+                class="grid-item"
+                src="https://live.staticflickr.com/65535/52387312009_98e0906c2f_o.jpg"
+              />
+              <img
+                class="work-img"
+                class="grid-item"
+                src="https://live.staticflickr.com/65535/52386076632_30fbf239fd_o.jpg"
+              />
+              <img
+                class="work-img"
+                class="grid-item"
+                src="https://live.staticflickr.com/65535/52387437260_75410527ba_o.jpg"
+              />
+            </div>
+            <div class="work-text">
+              Concept for advertising visual inspired by different ways people could spend time at home and how our mooncakes can make it more fun: WFH, Covid Parties, Netflix n' Chilling, Video Games.
+            </div>
+            <img
+              class="work-img"
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/31941b133335087.61bc48eba1b37.gif"
+            />
+            <img
+              class="work-img"
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/358975133335087.61bb1926d10ec.jpeg"
+            />
+            <div class="work-text">
+              Credit: / Superviser: Tuan Le / Co-Designer: Trang Dinh, Tuan Ha, Jay Vu, Tran N
+            </div>
+            <div class="mobile-gap"><br /><br /><br /><br /></div>
+          </div>
+
+          <!-- HelpScan -->
+          <div id="helpscan-section" class="hidden">
+            <img
+              class="work-img"
+              src="https://live.staticflickr.com/65535/52401254638_c02c160bf9_o.jpg"
+            />
+            <div class="work-text">
+              When searching for dietary supplement, customers prefer getting informed
+              online when they feel the first symptoms, what the diagnosis means
+              and its implications, even before going to see a doctor. Though
+              without professional help, health literacy is a major issue when
+              looking for supplements. Understand health information can be
+              challenging for all age, McKinsey German researchers approached The
+              Lab&apos;s design team for an interface design for their new
+              self-serving supplement scanner booth at some of the biggest
+              pharmacy chains in German.
+            </div>
+            <img
+              class="work-img"
+              src="https://live.staticflickr.com/65535/52601125994_1e1aad499c_k.jpg"
+            />
+            <div class="work-text">
+              Customers can access health information from multiple sources and make informed decisions about their care. However, older generations oftern face challenges such as accessing technology, understanding medical information, determining the credibility of information, and limited access to pharmacists or professional help. In light of these challenges, pharmacies should position themselves digitally as advisors and true sources of information that help patients resolve doubts, understand the indications of their therapeutic regimen, and avoid self-medication while addressing shortages of pharmacists. Additionally, the experience of visiting a pharmacist and using new technology should be enjoyable for the general public, including older generations.
+            </div>
+            <img
+              class="work-img"
+              src="https://live.staticflickr.com/65535/52601383788_d3aa532ec2_k.jpg"
+            />
+            <div class="work-text">
+              Understanding the customer journey and how they approach supplements and pharmacies is essential for designing the use of our medical database and anticipating customer needs as they move through different touchpoints with our brand or establishment. After identifying customer needs and opportunities for optimization through our solution and database, we pinpointed the most significant issues that impede the customer's mission during their visit to the pharmacy and decision-making process. When conducting online research, customers often feel confused by the abundance and complexity of information, so they turn to pharmacists for solutions to medical issues. Unfortunately, due to a shortage in medical staff, they are left disappointed by the limited one-on-one assistance.
+            </div>
+            <img
+              class="work-img"
+              src="https://live.staticflickr.com/65535/52600864871_68fe1aee69_k.jpg"
+            />
+            <div class="work-text">
+              Users need a time-saving and simplified experience when visiting a pharmacy. So, we developed an initial app structure for HelpScan. It uses six simple steps wireframe to search, diagnose common symptoms, and receive medication or scan current supplements.
+            </div>
+            <img
+              class="work-img"
+              src="https://live.staticflickr.com/65535/52601287415_6ed54af4cf_k.jpg"
+            />
+            <div class="work-text">
+              Combining the need for personalized care and an enjoyable experience, the design concept for HelpScan is on gamification. This turns crucial decisions at each step into body parts of a medical mascot. As users make decisions and have unique needs, the body parts will be assembled to create a HelpScan mascot that provides recommendations for supplements and additional health advice or resources. The design also takes inspiration from the shape of pills and common medical supplies, and the mascot's motion is based on healthy exercises to boost daily strength.
+            </div>
+            <img
+              class="work-img"
+              src="https://live.staticflickr.com/65535/52600374112_f34bc9cec0_k.jpg"
+            />
+            <div class="work-text">
+              With the help of our third-party database to categorize and redesign the information to be more friendly for the general public, we designed the app with a minimal and linear interface approach, step-by-step directions with a voice-over, and by integrating playful design details. Each screen is reduced to 4-5 actions with little to no hidden information to prevent the user from getting lost in the linear app. Immediate support can be sparked with a simple click to chat with a customer center representative. The kiosk is available 24/7 for needs outside of working hours, along with online customer support.
+            </div>
+            <div id="helpscan-prototype">
+              <img class="work-img" src="img/helpscan1.gif" />
+              <p>Step 1: Welcome Page & Step 2: Scan Supplement</p>
+              <img class="work-img" src="img/helpscan2.gif" />
+              <p>Step 3: Confirm Scan & Step 4: Alternative Supplement</p>
+              <img class="work-img" src="img/helpscan3.gif" />
+              <p>
+                Step 5: Finalize Choice & Step 6: Sent prescription via
+                SMS/Email or to Counter
+              </p>
+            </div>
+            <div class="work-text">
+              We wrapped up the process by testing the high-fidelity prototype with real users. Reaching out to a few of the users from the interviews helped us speed the recruiting process. After we guided the customer through the screens, we updated the designs based on their feedback.<br /><br />
+              &lt;&lt;&lt;<a
+                style="text-decoration: underline"
+                target="_blank"
+                href="https://www.figma.com/proto/5kMfotfC3ZFQDQAWv4Uzyz/HELPSCAN?page-id=0%3A1&node-id=305%3A71&viewport=415%2C-622%2C0.07&scaling=scale-down&starting-point-node-id=305%3A71"
+                >Click here for high-fidelity prototype </a
+              >&gt;&gt;&gt; <br /><br />Credit: / Superviser: Tuan Le /
+              Co-Designer: Trang Dinh / Research and Database: McKinsey Berlin
+            </div>
+            <div class="mobile-gap"><br /><br /><br /><br /></div>
+          </div>
+
+          <!-- HIV Love is Hard -->
+          <div id="loveishard-section" class="hidden">
+            <img
+              class="work-img"
+              src="https://live.staticflickr.com/65535/52605988095_57c73dca23_b.jpg"
+            />
+            <div class="work-text">
+              230,000 people live with HIV in Vietnam. Against the backdrop of centuries-old sexual norms and decades-old HIV prevention propaganda, Love is Hard is created to erase stigmas against people living with HIV and educate same-sex communities about effectiveness of PrEP treatment. Addressing long-rooted cultural stigmas against same-sex relationships and pharmaceutical intervention, the 2022 program contrasts the ups and downs of love against the mundane simplicity of HIV prevention with PrEP —“It is just a pill”.
+            </div>
+            <img class="work-img" src="img/hiv1.gif" />
+            <div class="work-text">
+              The first part of the campaign provides a first-person perspective of the cultural narratives surrounding these challenges, beginning with an open call for members of the LGBTQ+ community to submit their real stories about love. While we initially only expected around 100 responses, we ended up with over 1,500; these stories were so impactful that we decided to edit and compile 1,096 entries into a three-volume series.
+              <br />
+              &lt;&lt;&lt;<a
+                style="text-decoration: underline"
+                target="_blank"
+                href="https://drive.google.com/file/d/1cjo-3_e71O6DUPXY-OysS135hh1XfbyA/view?usp=sharing"
+                >Click here for view Vol1,
+              </a>
+              <a
+                style="text-decoration: underline"
+                target="_blank"
+                href="https://drive.google.com/file/d/1MZIkWmoo5bBXILPIxTCTR-pGUas6bbF8/view?usp=sharing"
+                >Vol2,
+              </a>
+              <a
+                style="text-decoration: underline"
+                target="_blank"
+                href="https://drive.google.com/file/d/1MZIkWmoo5bBXILPIxTCTR-pGUas6bbF8/view?usp=sharing"
+                >Vol3 </a
+              >&gt;&gt;&gt;
+            </div>
+            <div class="grid-container">
+              <img
+                class="work-img"
+                class="grid-item"
+                src="https://live.staticflickr.com/65535/52605070687_b621ecc048_b.jpg"
+              />
+              <img
+                class="work-img"
+                class="grid-item"
+                src="https://live.staticflickr.com/65535/52605567296_682c9ace24_b.jpg"
+              />
+            </div>
+            <div class="work-text">
+              The second part of the campaign focuses on visual storytelling with a series of posters dramatizing the trials and tribulations of navigating same-sex relationships. Drawing inspiration from the Ðông Hồ painting style—known for its traditional value in portraying social, philosophical, and humanitarian desires—the art direction juxtaposes the contemporary simplicity of taking a pill against the historic barriers of love in Vietnamese society.
+            </div>
+            <img
+              class="work-img"
+              src="https://live.staticflickr.com/65535/52605997925_f6e14a5c86_b.jpg"
+            />
+            <div class="work-text">
+              Combining linguistic and artistic mediums, the campaign&#39;s finale culminates in a multidisciplinary exhibition The Museum of Heartbreak, showcasing the work of contemporary musicians, filmmakers, and artists through a series of ten installations inspired by their own experiences. <br />
+              &lt;&lt;&lt;<a
+                style="text-decoration: underline"
+                target="_blank"
+                href="https://www.thelabsaigon.com/work/5ee4c4e2-d239-4794-8414-beb09a210f65"
+                >Click here for full campaign summary </a
+              >&gt;&gt;&gt;
+            </div>
+            <img
+              class="work-img"
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/1766f6139885003.6245330d7f1ac.png"
+            />
+            <div class="work-text">
+              Credit: / Superviser: Tuan Le / Co-Visual Direction: Reo Le / Designer: Andree, Tran N, Trang Dinh
+              Co-Designer: The Lab Creative Team
+            </div>
+            <div class="mobile-gap"><br /><br /><br /><br /></div>
+          </div>
+
+          <!-- Blank Summer -->
+          <!-- <div id="blank-section" class="hidden">
+            <img class="work-img" src="img/blank1.gif" />
+            <div class="work-text">
+              Summer campaign for one of the world's highest lounges. Round and
+              around we ride the merry-go-round. Summer Fair is a celebration of
+              nostalgia, hometown fairgrounds, and fun flavors. It's a reminder
+              that no matter how far we go and how old we grow, we always return
+              to happy memories.
+            </div>
+            <img class="work-img" src="img/blank2.gif" />
+            <div class="work-text">
+              Summer is a feeling. And a hot dog. The design for this campaign
+              evokes fast food, festivals, and fun.
+            </div>
+            <img
+              class="work-img"
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/b81fa3154821325.634d212161686.png"
+            />
+            <img
+              class="work-img"
+              src="https://live.staticflickr.com/65535/52451116416_de41e4064e_h.jpg"
+            />
+            <img
+              class="work-img"
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/123eca154821325.634d21215deda.png"
+            />
+            <img
+              class="work-img"
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/adeaea154821325.635273f902073.png"
+            />
+            <div class="work-text">
+              Credit / Co-deisnger: Andree Nguyen / Superviser: Tuan Le /
+              Client: Blank Saigon
+            </div>
+            <div class="mobile-gap"><br /><br /><br /><br /></div>
+          </div> -->
+        </div>
+
+        <!-- End -->
+      </div>
+    </div>
+
+    <!-- Play menu -->
+    <div id="play">
+      <ul id="play-list">
+        <li>Website designed and coded by Khe Nguyen *(●´⌓`●)* 2023</li>
+      </ul>
+    </div>
+
+    <div id="rotate-icon" class="icon-active">
+      <img src="img/rotate.png" alt="Rotate Icon" width="65%" />
+    </div>
+    <div id="close-icon" class="icon-hidden">
+      <img src="img/close.png" alt="Close Icon" width="65%" />
+    </div>
+    <!-- </div> -->
+    <script src="script.js"></script>
+  </body>
+</html>
